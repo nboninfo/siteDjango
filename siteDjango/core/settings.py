@@ -149,6 +149,8 @@ REST_FRAMEWORK = {
     ],
 }
 
+
+
 if not DEBUG:
     ALLOWED_HOSTS=env.list('ALLOWED_HOSTS_DEPLOY')
 
